@@ -1,0 +1,14 @@
+{
+  "name": "vue-demo-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/haihua1994/vue-demo-example.git",
+  "author": "haihua1994 <1259888246.com>",
+  "license": "MIT",
+  "scripts":{
+  	"start":"./node_modules/.bin/browser-sync start --server --no-notifiy --filers='index.html,*.css,*.js'"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.6"
+  }
+}
